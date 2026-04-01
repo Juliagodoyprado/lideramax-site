@@ -477,17 +477,11 @@ h2 {
     gap: 14px;
   }
 
-  .nav-links {
-    gap: 10px;
-    width: auto;
+  .brand {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-    justify-content: flex-start;
-  }
-
-  .nav-links a {
-    padding: 10px 8px;
+    align-items: center;
+    gap: 14px;
+    order: 1;
   }
 
   .theme-toggle {
@@ -495,6 +489,21 @@ h2 {
     text-align: center;
     padding: 10px 14px;
     white-space: nowrap;
+    order: 2;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .nav-links a {
+    padding: 10px 8px;
   }
 
   .hero-actions {
