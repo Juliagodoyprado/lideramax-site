@@ -140,11 +140,48 @@ function App() {
 
       <section id="contact" className="section contact-section">
         <div className="contact-card">
-          <div>
+          <div className="contact-copy">
             <p className="eyebrow">Contato</p>
             <h2>Vamos conversar sobre seu próximo passo?</h2>
             <p>Envie uma mensagem e agende uma conversa estratégica para transformar sua empresa.</p>
+
+            <div className="contact-links">
+              <a href="mailto:atendimentolideramax@gmail.com" className="contact-link" aria-label="Enviar email para atendimentolideramax@gmail.com">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="M3 7l9 6 9-6" />
+                  </svg>
+                </span>
+                <strong>Email</strong>
+              </a>
+
+              <a href="https://www.linkedin.com/in/lidera-max-3b3662401" target="_blank" rel="noreferrer" className="contact-link" aria-label="Abrir LinkedIn de LideraMax">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="4" />
+                    <path d="M8 11v7" />
+                    <path d="M8 8v.01" />
+                    <path d="M12 18v-4a2 2 0 0 1 4 0v4" />
+                    <path d="M12 11h4" />
+                  </svg>
+                </span>
+                <strong>LinkedIn</strong>
+              </a>
+
+              <a href="https://www.instagram.com/lideramax/" target="_blank" rel="noreferrer" className="contact-link" aria-label="Abrir Instagram de LideraMax">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="4" y="4" width="16" height="16" rx="5" />
+                    <circle cx="12" cy="12" r="3.5" />
+                    <path d="M17.5 6.5h.01" />
+                  </svg>
+                </span>
+                <strong>Instagram</strong>
+              </a>
+            </div>
           </div>
+
           <a href="https://api.whatsapp.com/send/?phone=5513996643242&text&type=phone_number&app_absent=0&wame_ctl=1" className="btn primary">Falar no WhatsApp</a>
         </div>
       </section>
