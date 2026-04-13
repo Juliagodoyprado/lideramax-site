@@ -23,9 +23,9 @@ const services = [
 ];
 
 const stats = [
-  { label: "Empresas atendidas", value: "+120" },
-  { label: "Projetos entregues", value: "+85" },
-  { label: "Crescimento médio", value: "+45%" },
+  { label: "Início", value: "Novo ciclo" },
+  { label: "Fase inicial", value: "Em progresso" },
+  { label: "Valorização", value: "Potencial" },
 ];
 
 function App() {
@@ -86,7 +86,7 @@ function App() {
           <div className="hero-card__inner">
             <p className="hero-card__label">Resultados em destaque</p>
             <h2>Estratégia + Execução</h2>
-            <p>Projetos desenhados para gerar clareza, foco e performance em todas as áreas.</p>
+            <p>Projetos pensados para gerar clareza, foco e performance desde os primeiros passos.</p>
             <div className="hero-stats">
               {stats.map((stat) => (
                 <div key={stat.label} className="stat-item">
